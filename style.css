@@ -1,5 +1,5 @@
 header{
-  border-top: 15px solid black;
+  border-top: 5px solid black;
   width: 70%;
   height: 300px; 
   margin-left:250px;
@@ -10,17 +10,18 @@ header{
 }
 .kep1, .kep2{
      font-family: 'Abril Fatface', cursive;
- margin-left: 250px;
+ margin-left: 100px;
 }
 
 .kep1{
   font-size: 50px;
-  margin-top:0px;
-  margin-bottom:0px;
+  
+  border: 3px solid black;
 }
 .kep2{
   font-size: 40px;
   margin-bottom:0px;
+
  }
 h1{
   font-size:35px;
@@ -76,4 +77,30 @@ ul{
 .vonallal{
   border-top:2px solid black;
   padding-top: 30px;
+}
+
+.button{
+cursor: pointer;
+color:white;
+background: black;
+padding: 10px;
+margin: 5px;
+border: 2px solid black;
+border-radius: 15px;;
+}
+.menu{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width:100%;
+}
+.footer, .kozepre{
+  text-align: center;
+}
+
+
+.fb{
+  width: 50px;;
 }
